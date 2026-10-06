@@ -19,7 +19,7 @@ export const ThemeProvider = ({ children }) => {
       .catch((error) => {
         console.error("Không thể lấy profile:", error);
       });
-  }, [profile]);
+  }, []);
 
   // Mỗi khi theme thay đổi
   useEffect(() => {

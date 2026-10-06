@@ -2,7 +2,7 @@ import { Outlet, Link, NavLink } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 function MainLayout() {
   const { theme, setTheme } = useTheme();
-  console.log(theme);
+  console.log(theme , "MainLayout");
   return (
     <>
       <div

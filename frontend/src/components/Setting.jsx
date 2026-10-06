@@ -4,6 +4,7 @@ import { useTheme } from "../context/ThemeContext";
 function Settings() {
   const { theme, setTheme } = useTheme();
   const { profile, setProfile } = useTheme();
+  
   //useEffect(() => setProfile({ ...profile, theme: theme }), [theme]);
 
   //Lấy dữ liệu khi vừa load trang
@@ -25,7 +26,7 @@ function Settings() {
   // Hàm xử lý Lưu thay đổi
   const handleSave = () => {
     console.log(theme, "setting.jsx");
-    console.log(profile);
+    console.log(profile , 'handleSave');
     fetch("http://localhost:5000/api/profile", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -34,7 +35,8 @@ function Settings() {
       .then((res) => res.json())
       .then((data) => {
         alert("Lưu thành công!");
-        console.log(data);
+        console.log(data,'sau khi luu');
+        setTheme(profile.theme);
       });
   };
 
