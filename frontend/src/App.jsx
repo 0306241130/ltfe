@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import MainLayout from "./Layouts/MainLayout";
-import Notes from "./components/Notes";
-import PrivateNotes from "./components/PrivateNotes";
-import Settings from "./components/Setting";
+import Notes from "./pages/Notes";
+import PrivateNotes from "./pages/PrivateNotes";
+import Settings from "./pages/Setting";
 import { ThemeProvider } from "./context/ThemeContext";
 const Home = () => "This is Home";
 
