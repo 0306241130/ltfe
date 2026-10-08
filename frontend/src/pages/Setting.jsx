@@ -5,20 +5,7 @@ function Settings() {
   const { theme, setTheme } = useTheme();
   const { profile, setProfile } = useTheme();
   
-  //useEffect(() => setProfile({ ...profile, theme: theme }), [theme]);
 
-  //Lấy dữ liệu khi vừa load trang
-  //   useEffect(() => {
-  //     fetch("http://localhost:5000/api/profile")
-  //       .then((res) => res.json())
-  //       .then((data) => {
-  //         setProfile(data);
-  //         // Đổi màu nền tạm thời dựa theo theme
-  //         document.body.style.backgroundColor =
-  //           data.theme === "dark" ? "#333" : "#fff";
-  //         document.body.style.color = data.theme === "dark" ? "#fff" : "#000";
-  //       });
-  //   }, []);
   // Hàm xử lý khi gõ vào Input
   const handleChange = (e) => {
     setProfile({ ...profile, [e.target.name]: e.target.value });

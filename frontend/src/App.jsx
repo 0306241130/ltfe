@@ -5,7 +5,7 @@ import Notes from "./pages/Notes";
 import PrivateNotes from "./pages/PrivateNotes";
 import Settings from "./pages/Setting";
 import { ThemeProvider } from "./context/ThemeContext";
-const Home = () => "This is Home";
+
 
 function App() {
   return (
