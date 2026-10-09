@@ -6,10 +6,12 @@
 2. Phạm Viết Quang Viên 0306241083 - Vai trò: Frontend Developer 
 3. Lý Gia Huy 0306241031 Vai trò: Backend Developer
 ## 1. Công nghệ sử dụng 
-**Frontend:** 
-ReactJS (Vite), React Router DOM. 
+**Frontend:** ReactJS (Vite), React Router DOM. 
+
 **Backend:** Node.js, Express.js. 
+
 **Cơ sở dữ liệu:** File System (lưu trữ bằng định dạng `.json` để dễ quản lý và triển khai). 
+
 ## 2. Yêu cầu môi trường 
 HỆ THỐNG QUẢN LÝ GHI CHÚ VÀ THÔNG TIN RIÊNG TƯ 
 Máy tính cần cài đặt sẵn **Node.js** (phiên bản v16 trở lên). 
