@@ -20,7 +20,7 @@ Máy tính cần cài đặt sẵn **Node.js** (phiên bản v16 trở lên).
 ## 3. Hướng dẫn Cài đặt & Chạy dự án (Rất quan trọng) 
 Dự án được chia làm 2 phần chạy độc lập. Vui lòng mở 2 cửa sổ Terminal (Command Prompt) để chạy song song. 
 ### Bước 1: Khởi động Backend (Máy chủ API) 
-Mở Terminal 1, di chuyển vào thư mục 'backend` và chạy lệnh: 
+-Mở Terminal , di chuyển vào thư mục 'backend` và chạy lệnh: 
 
 cd backend 
 
@@ -28,8 +28,10 @@ npm init -y
 
 npm install express cors 
 
-Lưu ý: Backend sẽ chạy tại http://localhost:5000. Hệ thống sẽ tự động sinh thư mục data/ chứa các file JSON. Vui lòng không xóa thư mục này khi đang chạy ứng dụng. Bước 2: Khởi động Frontend (Giao diện) 
-Mở Terminal 
+Lưu ý: Backend sẽ chạy tại http://localhost:5000. Hệ thống sẽ tự động sinh thư mục data/ chứa các file JSON. Vui lòng không xóa thư mục này khi đang chạy ứng dụng. 
+
+-Mở Terminal , Khởi động Frontend (Giao diện) 
+
 ### Bước 2, di chuyển vào thư mục frontend và chạy lệnh: 
 cd frontend 
 
