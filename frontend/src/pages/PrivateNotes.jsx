@@ -47,6 +47,10 @@ function PrivateNotes() {
       .then((data) => setNotes(data));
   };
   const handleSave = () => {
+    if (formData.title.trim() === "" || formData.content.trim() === "") {
+      alert("vui lòng nhập title bí mật và content bí mật bạn muốn thêm");
+      return;
+    }
     const method = formData.id ? "PUT" : "POST";
     const url = formData.id
       ? `http://localhost:5000/api/private/notes/${formData.id}`

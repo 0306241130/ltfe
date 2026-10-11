@@ -32,6 +32,10 @@ function Notes() {
     fetchNotes();
   }, [topic]);
   const handleSave = () => {
+    if (formData.title.trim() === "" || formData.content.trim() === "") {
+      alert("vui lòng nhập title và content bạn muốn thêm");
+      return;
+    }
     const method = formData.id ? "PUT" : "POST";
     const url = formData.id
       ? `http://localhost:5000/api/notes/${topic}/${formData.id}`
