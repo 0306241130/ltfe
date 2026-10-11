@@ -1,5 +1,5 @@
 # ĐỒ ÁN MÔN HỌC: ỨNG DỤNG QUẢN LÝ GHI CHÚ (REACTJS & NODEJS) 
-**Giảng viên hướng dẫn:** Ngyễn Hoàng Việt 
+**Giảng viên hướng dẫn:** Nguyễn Hoàng Việt 
 
 **Nhóm thực hiện:** Nhóm 13 
 
