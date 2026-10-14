@@ -28,6 +28,8 @@ npm init -y
 
 npm install express cors 
 
+node server
+
 Lưu ý: Backend sẽ chạy tại http://localhost:5000. Hệ thống sẽ tự động sinh thư mục data/ chứa các file JSON. Vui lòng không xóa thư mục này khi đang chạy ứng dụng. 
 
 -Mở Terminal , Khởi động Frontend (Giao diện) 
@@ -38,8 +40,6 @@ cd frontend
 npm install 
 
 npm run dev 
-
-node server
 
 Lưu ý: Frontend sẽ chạy tại http://localhost:5173 (hoặc cổng khác hiển thị trên terminal). Mở đường dẫn này trên trình duyệt (Khuyến nghị Google Chrome) để sử dụng hệ thống. 
 ## 4. Tài khoản / Mật khẩu Demo 
